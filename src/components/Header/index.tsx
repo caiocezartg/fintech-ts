@@ -1,10 +1,15 @@
-import { useContext } from "react";
-import { DataContext } from "../../context/DataContext";
+import DataRange from "../DateRange";
+import Months from "../Months";
 
 const Header = () => {
-  const { data } = useContext(DataContext);
-
-  return <div>Header</div>;
+  return (
+    <header className="mb">
+      <div className="mb">
+        <DataRange />
+      </div>
+      <Months />
+    </header>
+  );
 };
 
 export default Header;
