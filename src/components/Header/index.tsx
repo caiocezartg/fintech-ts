@@ -1,7 +1,10 @@
-const Header = () => {
-  return (
-    <div>Header</div>
-  )
-}
+import { useContext } from "react";
+import { DataContext } from "../../context/DataContext";
 
-export default Header
+const Header = () => {
+  const { data } = useContext(DataContext);
+
+  return <div>Header</div>;
+};
+
+export default Header;
