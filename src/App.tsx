@@ -9,12 +9,14 @@ function App() {
   return (
     <>
       <DataContextProvider>
-        <Sidenav />
-        <main>
-          <Header />
-          <Resumo />
-          <DataRange />
-        </main>
+        <div className="container">
+          <Sidenav />
+          <main>
+            <Header />
+            <Resumo />
+            <DataRange />
+          </main>
+        </div>
       </DataContextProvider>
     </>
   );
