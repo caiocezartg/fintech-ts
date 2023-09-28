@@ -9,6 +9,13 @@ import {
 } from "recharts";
 import { IVenda } from "../../context/DataContext";
 
+type VendaDia = {
+  data: string;
+  pago: number;
+  falha: number;
+  processando: number;
+};
+
 const transformStats = (data: IVenda[]): VendaDia[] => {
   const days = data.reduce((acc: { [key: string]: VendaDia }, item) => {
     const day = item.data.split(" ")[0];

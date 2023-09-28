@@ -166,3 +166,41 @@ body {
   animation: l3 1s infinite linear;
 }
 @keyframes l3 {to{transform: rotate(1turn)}}
+
+@media (max-width: 1000px) {
+  .resumo {
+    flex-direction: column;
+  }
+  .daterange {
+    grid-template-columns: 1fr;
+  }
+  .daterange *:last-child {
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    --gap-sm: 0.5rem;
+    --gap-md: 0.75rem;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .sidenav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .sidenav li a {
+    font-size: 0.875rem;
+  }
+  .venda {
+    grid-template-columns: 1fr;
+  }
+  .venda div:last-child {
+    justify-self: start;
+  }
+}
