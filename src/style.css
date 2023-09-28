@@ -109,3 +109,40 @@ body {
     color: inherit;
   }
 }
+
+.sidenav{
+  
+  & li{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-sm);
+
+    &:hover span{
+      background-color: var(--color-3);
+    }
+
+    & span{
+      width: 2rem;
+      height: 2rem;
+      background-color: var(--color-4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+    }
+
+    & a {
+      flex: 1;
+      font-size: 1.125rem;
+      color: var(--color-1);
+      padding: var(--gap-sm) 0;
+    }
+  }
+
+}
+
+.daterange{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap-md);
+}
