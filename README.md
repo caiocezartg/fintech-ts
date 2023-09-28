@@ -3,7 +3,8 @@
 
 &#xa0;
 
-  <!-- <a href="https://fintech.netlify.app">Demo</a> -->
+<a href="https://fintech-ts.vercel.app/">Demo</a>
+
 </div>
 
 <h1 align="center">Fintech</h1>
