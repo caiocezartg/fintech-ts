@@ -9,13 +9,13 @@
 <h1 align="center">Fintech</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/caiocezartg/fintech?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/caiocezartg/fintech-ts?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/caiocezartg/fintech?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/caiocezartg/fintech-ts?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/caiocezartg/fintech?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/caiocezartg/fintech-ts?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/caiocezartg/fintech?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/caiocezartg/fintech-ts?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/caiocezartg/fintech?color=56BEB8" /> -->
 
@@ -63,7 +63,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/caiocezartg/fintech
+$ git clone https://github.com/caiocezartg/fintech-ts
 
 # Access
 $ cd fintech
