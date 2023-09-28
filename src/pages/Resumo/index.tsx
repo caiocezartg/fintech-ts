@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { DataContext } from "../../context/DataContext";
+import Charts from "../../components/Charts";
 
 const Resumo = () => {
   const { data } = useContext(DataContext);
@@ -39,7 +40,9 @@ const Resumo = () => {
           </span>
         </div>
       </div>
-      <div className="box mb">Gráficos</div>
+      <div className="box mb">
+        <Charts stats={data} />
+      </div>
     </section>
   );
 };
