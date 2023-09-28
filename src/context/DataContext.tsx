@@ -1,10 +1,10 @@
 import { createContext, useState } from "react";
 import useFetch from "../hooks/useFetch";
 
-type IVenda = {
+export type IVenda = {
   id: string;
   nome: string;
-  preço: number;
+  preco: number;
   status: "pago" | "processando" | "falha";
   pagamento: "boleto" | "pix" | "cartao";
   data: string;

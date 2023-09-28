@@ -41,6 +41,7 @@ body {
   display: grid;
   padding: var(--gap-md);
   gap: var(--gap-md);
+  grid-template-columns: 240px auto;
 }
 
 .box{
@@ -80,4 +81,31 @@ body {
 
 .bg-5 {
   background-color: var(--color-5);
+}
+
+.resumo {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  h2{
+    font-size: 1.5rem;
+    margin-bottom: var(--gap-md);
+    color: var(--color-1);
+  }
+}
+
+.venda {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: var(--gap-md);
+  margin-bottom: var(--gap-sm);
+
+  & > div:last-child {
+    justify-self: end;
+  }
+
+  & a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
